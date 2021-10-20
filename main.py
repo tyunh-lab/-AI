@@ -75,7 +75,7 @@ while len(known_face_imgs_from) != 0:
     plt.axis('off')
     plt.show()
     #ファイル移動
-    dir = input("この人の名前は？:")+"/"
+    dir = str(input("この人の名前は？:"))+"/"
     os.mkdir(dir)
     while(i != len(matches)):
       if matches[i] == True:
