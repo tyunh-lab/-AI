@@ -1,3 +1,6 @@
+#最終更新日時2022/01/20
+
+
 #cnn を使うには、CUDA 9/cudnn7 環境で実行してください
 import face_recognition
 import shutil
